@@ -161,5 +161,6 @@ int main(int argc, char **argv){
 	deletetree(sortedvocab);
 	if (kinp) fclose(inpsource);
 	if (kout) fclose(outsource);
-return 0;
+
+	return 0;
 }
